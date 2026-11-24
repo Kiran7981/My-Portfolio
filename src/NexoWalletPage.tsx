@@ -43,6 +43,17 @@ export default function NexoWalletPage() {
             </div>
           </section>
         </div>
+        <section className="project-repository" aria-label="Project source code">
+          <span className="project-detail-label">SOURCE CODE</span>
+          <a
+            className="repository-link"
+            href="https://github.com/Alastor428/Sepcial-Project-MIIT-2025--2026-.git"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View GitHub repository <span aria-hidden="true">Nexo Wallet</span>
+          </a>
+        </section>
       </article>
     </main>
   );

@@ -51,7 +51,15 @@ export default function MyanmarCoastalJourneyPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            View GitHub repository <span aria-hidden="true">.</span>
+            View GitHub repository <span aria-hidden="true">Myanmar Coastal Journey (Frontend)</span>
+          </a>
+          <a
+            className="repository-link"
+            href="https://github.com/Alastor428/Backend-Repo-for-Myanmar-Coastal-Journey.git"
+            target="_blank"
+            rel="noopener noreferrer" 
+          >
+            View GitHub repository <span aria-hidden="true">Myanmar Coastal Journey (Backend)</span>
           </a>
         </section>
       </article>
