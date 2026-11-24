@@ -118,7 +118,7 @@ function App() {
                 <span className="skill-icon">
                   <img src={rlogo} alt="R" />
                 </span>
-                <span>R</span>
+                <span>R Programming</span>
               </div>
             </div>
           </div>
