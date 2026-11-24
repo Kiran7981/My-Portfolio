@@ -43,6 +43,17 @@ export default function MyanmarCoastalJourneyPage() {
             </div>
           </section>
         </div>
+        <section className="project-repository" aria-label="Project source code">
+          <span className="project-detail-label">SOURCE CODE</span>
+          <a
+            className="repository-link"
+            href="https://github.com/Alastor428/Frontend-Repo-for-Myanmar-Coastal-Journey-"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View GitHub repository <span aria-hidden="true">.</span>
+          </a>
+        </section>
       </article>
     </main>
   );
