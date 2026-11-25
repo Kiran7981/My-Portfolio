@@ -5,7 +5,6 @@ import reactLogo from "./assets/react.svg";
 import javascriptLogo from "./assets/javascript.svg";
 import nodeLogo from "./assets/nodejs.svg";
 import typescriptLogo from "./assets/typescript.svg";
-import rlogo from"./assets/r.jpg";
 import figmaLogo from "./assets/figma.svg";
 import githubLogo from "./assets/github.svg";
 import telegramLogo from "./assets/telegram.svg";
@@ -113,12 +112,6 @@ function App() {
                   <img src={figmaLogo} alt="Figma" />
                 </span>
                 <span>Figma</span>
-              </div>
-              <div className="skill-item" title="R">
-                <span className="skill-icon">
-                  <img src={rlogo} alt="R" />
-                </span>
-                <span>R Programming</span>
               </div>
             </div>
           </div>
@@ -234,7 +227,7 @@ function App() {
             </article>
           </div>
         </section>
-
+        
         <footer className="page-footer">
           <span>INDEPENDENT FRONTEND DEVELOPER · MYANMAR</span>
 

@@ -694,11 +694,16 @@
 .project-hero-nexo {
   color: #fff;
   background: linear-gradient(135deg, #79c5ca 0%, #579da3 100%);
+  background-position: center;
+  background-size: cover;
 }
 
 .project-hero-coastal {
-  color: #2e4f50;
+  color: #fff;
   background: linear-gradient(135deg, #edf7f5 0%, #cfe7e4 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .project-hero-kicker {
@@ -806,6 +811,19 @@
 
 .repository-link:hover span {
   transform: translate(2px, -2px);
+}
+
+.project-images img{
+  margin-top: 28px;
+  padding: 0 4px;
+  height: 426px;
+  width: 197px;
+}
+
+.project-images-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .page-footer {
